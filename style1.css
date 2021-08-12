@@ -20,7 +20,7 @@
         background-size: cover;
         background-image: url('bg.jpeg');
         object-fit: cover;
-         width: 390px; 
+        width: 390px;
     }
     form{
     margin:35px;
