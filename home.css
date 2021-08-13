@@ -1,9 +1,8 @@
 * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .container1 {
   display: flex;
@@ -12,7 +11,7 @@
   padding: 20px;
 }
 
-.glassmorphism{
+.glassmorphism {
   width: 320px;
   height: 560px;
   background: rgba(255, 255, 255, 0.09);
@@ -21,62 +20,59 @@
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
- }
+}
 
 .profile-img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 250px;
-    height: 150px;
-     padding: 5px;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+  padding: 5px;
+}
 
 .profile-img img {
-        width: 40%;
-        border-radius: 50%;
-
-
+  width: 40%;
+  border-radius: 50%;
 }
 
 .profile-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 350px;
-        height: 300px;
-       padding: 10px;
- } 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 300px;
+  padding: 10px;
+}
 
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  flex-direction: row;
+}
 
-    .icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
-        flex-direction: row;
-    }
+.icon a {
+  color: yellowgreen;
+  font-size: 1.6rem;
+  margin: 20px;
+}
 
-    .icon a {
-        color: yellowgreen;
-        font-size: 1.6rem;
-        margin: 20px;
-    }
+.buttons button {
+  padding: 10px;
+  width: 150px;
+  border-radius: 6px;
+  border: 0;
+  outline: none;
+  font-size: medium;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(80, 50, 33, 0.2);
+  text-align: center;
+}
 
-    .buttons button {
-        padding: 10px;
-        width: 150px;
-        border-radius: 6px;
-        border: 0;
-        outline: none;
-        font-size: medium;
-        font-weight: 500;
-        color: white;
-        background-color: rgba(80, 50, 33, 0.2);
-        text-align: center;
-    }
-
-   .card{
+.card {
   width: 360px;
   height: 600px;
   background-repeat: no-repeat;
@@ -96,54 +92,55 @@
   justify-content: center;
 }
 
-
 .contact-box {
-        width: 360px;
-        background-color: #fff;
-        box-shadow: 0 0 20px 0 #999;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        position: relative;
-
-    }
-
-    form {
-        margin: 35px;
-
-    }
-
-    .image {
-        width: 100%;
-
-        border-radius: 50%;
-        margin-top: 10px;
-        margin-left: 12px;
-
-    }
-.btn {
-        border-radius: 20px;
-        color: #fff;
-        margin-top: 18px;
-        padding: 10px;
-        background-color: #47c35a;
-        font-size: 12px;
-        border: none;
-        cursor: pointer;
+  width: 360px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
 }
 
-.name{
+form {
+  margin: 35px;
+}
+
+.image {
+  width: 100%;
+
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.name {
   font-family: DejaVu Sans Mono, monospace;
   height: 20px;
   letter-spacing: 3px;
   margin-top: 60px;
 }
-.des{
-  font-family:OCR A Std, monospace;
+.des {
+  font-family: OCR A Std, monospace;
   margin: 10px;
 }
-.icon_border{
-     border-radius: 50%;
-     background: rgba(77, 77, 77, 0.336);
+.icon_border {
+  border-radius: 50%;
+  background: rgba(77, 77, 77, 0.336);
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
